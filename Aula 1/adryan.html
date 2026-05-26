@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .caixa {
+      background-color: white;
+      padding: 60px 80px;
+      text-align: center;
+      width: 700px;
+    }
+    h1 {
+      color: blue;
+      font-size: 75px;
+      margin: 0 0 40px 0;
+    }
+    .conteudo {
+      text-align: left;
+      font-size: 20px;
+      color: #333;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="caixa">
+    <h1>Adryan Wallace</h1>
+    
+    <div class="conteudo" id="conteudo">
+      <!-- O JavaScript vai preencher aqui -->
+    </div>
+  </div>
+
+  <script>
+    // ==================== TAREFA QUE VOCÊ PEDIU ====================
+
+    // 1. VARIÁVEIS
+    let nome = "Adryan Wallace";
+    let idade = 5;
+    let altura = 1.10;
+
+    // 2. CONSTANTES
+    const anoNascimento = 2021;
+    const corFavorita = "azul";
+
+    // 3. TIPOS DE DADOS
+    let tipoString = "Texto";           // String
+    let tipoNumero = 10;                // Number
+    let tipoBooleano = true;            // Boolean
+
+    // 4. OPERADORES
+    let soma = 5 + 3;
+    let multiplicacao = 4 * 2;
+    let maiorQue = 10 > 5;
+
+    // Mostra tudo na tela
+    document.getElementById("conteudo").innerHTML = `
+      <strong>1. VARIÁVEIS:</strong><br>
+      nome = ${nome}<br>
+      idade = ${idade} anos<br>
+      altura = ${altura} m<br><br>
+      
+      <strong>2. CONSTANTES:</strong><br>
+      anoNascimento = ${anoNascimento}<br>
+      corFavorita = ${corFavorita}<br><br>
+      
+      <strong>3. TIPOS DE DADOS:</strong><br>
+      String → ${tipoString}<br>
+      Number → ${tipoNumero}<br>
+      Boolean → ${tipoBooleano}<br><br>
+      
+      <strong>4. OPERADORES:</strong><br>
+      5 + 3 = ${soma}<br>
+      4 × 2 = ${multiplicacao}<br>
+      10 > 5 = ${maiorQue}
+    `;
+  </script>
+
+</body>
+</html>
