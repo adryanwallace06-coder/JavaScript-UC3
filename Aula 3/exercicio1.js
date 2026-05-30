@@ -9,17 +9,19 @@
 // }
 
 
-let nota 
-let valor
-let soma 
+let valor = 0
+let soma = 0
+let media = 0
 
 for (let i = 0; i <= 5; i++){
-    valor = console.log("Insira a nota n°" + (i+1))
+
+    valor = Number(prompt("Insira a nota n° " + (i + 1)))
+
     soma += valor
 }
 
 media = soma / 6
 
-console.log("A média é igual a" + media)
+console.log("A média é igual a " + media)
 
 
