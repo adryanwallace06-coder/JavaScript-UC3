@@ -1,0 +1,25 @@
+#meuElemento {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+}
+ 
+/* Cores e estilos para cada estado */
+.estado-inicial {
+    background-color: gray;
+}
+ 
+.estado-vermelho {
+    background-color: #ff4d4d;
+}
+ 
+.estado-verde {
+    background-color: #4CAF50;
+}
+ 

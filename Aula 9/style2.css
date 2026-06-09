@@ -1,0 +1,11 @@
+/* Oculta todas as mensagens por padrão */
+.mensagem {
+    display: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+ 
+/* Classe que será ativada pelo JavaScript para mostrar a mensagem */
+.visivel {
+    display: block !important;
+}

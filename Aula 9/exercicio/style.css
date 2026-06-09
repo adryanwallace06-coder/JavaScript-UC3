@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+ 
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+ 
+h2 {
+    text-align: center;
+    color: #333;
+}
+ 
+#campoBusca {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ 
+#listaProdutos {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+#listaProdutos li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+ 
+#listaProdutos li:hover {
+    background-color: #f9f9f9;
+}
+ 
+/* Esta classe será usada pelo JavaScript para esconder os itens */
+.oculto {
+    display: none !important;
+}
