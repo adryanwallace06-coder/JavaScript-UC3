@@ -58,7 +58,7 @@ function renderizarPedido() {
     const tbody = document.getElementById('pedidosBody');
     let html = '';
 
-    for(let i = 0; i < pedidos.length, i++){
+    for(let i = 0; i < pedidos.length; i++){
         const pedido = pedidos[i];
         const statusClass = `status status-${pedido.status}`;
 
